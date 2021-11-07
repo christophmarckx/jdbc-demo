@@ -21,7 +21,7 @@ public class SQLExecutor {
 
         if(connection == null)
         {
-            throw new ConfigurationException("The connection for the SQLExecuter is not set");
+            throw new ConfigurationException("The connection for the SQLExecutor is not set");
         }
 
         Statement statement = connection.createStatement();
